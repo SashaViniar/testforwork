@@ -3,16 +3,18 @@
 
 <head>
     <title>Demo Shop</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body id = "opacitymy">
     <div>
         <div class="logo">
             <h1>Demo<span>Shop</span></h1>
         </div>
         <div class="search">
-            <input type="text" class="form-control" placeholder="Suchbegriff" name="search" id="srch-term">
+            <input type="text" placeholder="Suchbegriff..." name="search" id="srch-term">
+            <input type="image" src="http://www.freeiconspng.com/uploads/search-icon-png-2.png" alt="Submit" width="40px" height="50px" class="imgs">
         </div>
 
         <div id="head3">
@@ -27,22 +29,64 @@
             <button class="trash">0,00</button>
         </div>
     </div>
+
+
     <header>
         <ul style="list-style-type:none">
             <li>Home</li>
-            <li>Hohenluft & Abenteuer</li>
-            <li>Kochlush & Provence</li>
+            <li class="Hohen">Hohenluft & Abenteuer</li>
+            <li class="Koch">Kochlush & Provence</li>
             <li>HandWerk & Tradition</li>
             <li>Specials & Sale</li>
             <li>Blog</li>
         </ul>
     </header>
-    <hr class = "hr1">
-    
-    <div class = "pole">
-        <h2 class = "hr2"><strong>Topseller</strong></h2>
-        <hr class = "hr2">
+
+    <div class="Kochlush">
+        <ul style="list-style-type:none">
+            <li>Kochlush & Provence</li>
+            <li> > </li>
+            <li>Essen</li>
+            <li> > </li>
+            <li>Ola & Gewurze</li>
+            <li> > </li>
+            <li style="color:red;">Essig & Ol</li>
+        </ul>
+        <button class="close"> X </button>
     </div>
+    <div class="Hohenluft">
+        <h1 class="h1hover">Zur Kategorie Specials & Sales</h1>
+        <button class="close"> X </button>
+    </div>
+
+
+
+    <div class="bigp">
+        <div class="pole">
+            <h2 class="hr2"><strong>Topseller</strong></h2>
+            <hr class="hr2">
+            <div>
+                <h3 class="imgwithtext"><img src="image/firstoil.png" align="top"><br>
+                Quanta de Sao Vicente Essig</h3>
+            </div>
+            <div>
+                <h3 class="imgwithtext"><img src="image/firstoil.png" align="top"><br>
+                Quanta de Sao Vicente Essig</h3>
+            </div>
+            <div>
+                <h3 class="imgwithtext"><img src="image/firstoil.png" align="top"><br>
+                Quanta de Sao Vicente Essig</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="trashclick">
+        
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
 </body>
 
 </html>
