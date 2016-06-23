@@ -78,7 +78,7 @@ header ul li {
     font-size: 40px;
 }
 
-hr{
+.hr1{
     display: inline-block;
     vertical-align: top;
     width: 100%;
@@ -91,4 +91,14 @@ hr{
     width: 98%;
     height: 300px;
     margin: 0 auto;
+}
+.hr2{
+    width: 90%;
+    margin: 0 auto;
+}
+.pole h2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #202020 ;
+    margin-top: 2%;
+    margin-bottom: 1%;
 }
