@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+h1 {
+    font-size: 60px;
+}
+
+span {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: grey;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+}
+
+.search {
+    width: 30%;
+    float: left;
+    margin: 3%;
+}
+
+h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: grey;
+    float: left;
+}
+
+.h3pad {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.trash {
+    color: red;
+}
+
+#head3 {
+    width: 100%;
+}
+
+.buttonshead {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+
+.like {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 5%;
+}
+
+.meinkonto {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin-right: 5%;
+}
+
+.trash {
+    float: left;
+    width: 100px;
+    height: 50px;
+}
+
+header {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    color: grey;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header ul li {
+    float: left;
+    margin-right: 5%;
+    font-size: 40px;
+}
+
+hr{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    color: orange;
+    background-color: orange;
+}
+
+.pole{
+    border:1px solid grey;
+    width: 98%;
+    height: 300px;
+    margin: 0 auto;
+}
